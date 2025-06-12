@@ -1,7 +1,7 @@
 function estimateTransactionFee() {
     let amounttosend = prompt("Enteramount");
 
-     if (isNaN(amounttosend) || amounttosend <= 0) {
+     if ( amounttosend <= 0) {
     console.log("Please enter a valid  amount.");
      }
      
